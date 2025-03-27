@@ -1,7 +1,7 @@
 const numDiv = document.createElement("div");
 const TableFunction = function () {
   const tombola = document.getElementById("tombola");
-  for (let i = 1; i <= 99; i++) {
+  for (let i = 1; i <= 90; i++) {
     const numDiv = document.createElement("div");
     numDiv.classList.add("casella");
     numDiv.innerText = i;
@@ -11,7 +11,7 @@ const TableFunction = function () {
 };
 
 const numRand = function () {
-  const random = Math.floor(Math.random() * 99 + 1);
+  const random = Math.floor(Math.random() * 90 + 1);
   addNum(random);
 };
 const addNum = function (x) {
